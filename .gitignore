@@ -1,0 +1,13 @@
+# local packaging output — uploaded to GitHub Releases, not tracked in repo
+/releases/
+
+# macOS metadata
+.DS_Store
+**/.DS_Store
+
+# editor / tooling artifacts
+*.swp
+*.log
+.idea/
+.vscode/
+node_modules/

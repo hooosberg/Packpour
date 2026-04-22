@@ -1,0 +1,156 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Privacy | Packpour</title>
+    <meta name="description" content="Privacy policy for Packpour, a local-first Chrome extension for filling App Store Connect locale pages." />
+    <link rel="icon" href="./assets/icon-128.png" type="image/png" />
+    <link rel="stylesheet" href="./styles.css" />
+  </head>
+  <body>
+
+    <header class="top">
+      <div class="container top__inner">
+        <a class="top__brand" href="./index.html">
+          <span class="top__logo" aria-hidden="true">
+            <svg width="20" height="20" viewBox="0 0 18 18" fill="none">
+              <rect x="2" y="4" width="9" height="2" rx="1" fill="white" opacity=".5"/>
+              <rect x="2" y="8" width="14" height="2" rx="1" fill="white" opacity=".5"/>
+              <rect x="2" y="12" width="11" height="2" rx="1" fill="white" opacity=".5"/>
+              <rect x="2" y="4" width="5" height="2" rx="1" fill="white"/>
+            </svg>
+          </span>
+          <div>
+            <span class="top__name">Packpour</span>
+            <span class="top__tag" data-i18n="top.tag">for App Store Connect</span>
+          </div>
+        </a>
+        <nav class="top__nav">
+          <a href="./index.html#features" data-i18n="nav.features">Features</a>
+          <a href="./index.html#install" data-i18n="nav.install">Install</a>
+          <a href="./support.html" data-i18n="footer.legalSupport">Support</a>
+          <div class="lang-switcher">
+            <button class="lang-switcher__button" type="button" id="langSwitcherButton" aria-haspopup="true" aria-expanded="false">
+              <svg viewBox="0 0 24 24" width="16" height="16" aria-hidden="true"><path fill="currentColor" d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm6.93 6h-2.95a15.65 15.65 0 0 0-1.38-3.56A8.03 8.03 0 0 1 18.92 8zM12 4.04c.83 1.2 1.48 2.53 1.91 3.96h-3.82c.43-1.43 1.08-2.76 1.91-3.96zM4.26 14C4.1 13.36 4 12.69 4 12s.1-1.36.26-2h3.38c-.08.66-.14 1.32-.14 2s.06 1.34.14 2H4.26zm.82 2h2.95c.32 1.25.78 2.45 1.38 3.56A7.99 7.99 0 0 1 5.08 16zm2.95-8H5.08a7.99 7.99 0 0 1 4.33-3.56A15.65 15.65 0 0 0 8.03 8zM12 19.96c-.83-1.2-1.48-2.53-1.91-3.96h3.82c-.43 1.43-1.08 2.76-1.91 3.96zM14.34 14H9.66c-.09-.66-.16-1.32-.16-2s.07-1.35.16-2h4.68c.09.65.16 1.32.16 2s-.07 1.34-.16 2zm.25 5.56c.6-1.11 1.06-2.31 1.38-3.56h2.95a8.03 8.03 0 0 1-4.33 3.56zM16.36 14c.08-.66.14-1.32.14-2s-.06-1.34-.14-2h3.38c.16.64.26 1.31.26 2s-.1 1.36-.26 2h-3.38z"/></svg>
+              <span id="langSwitcherLabel">English</span>
+              <svg viewBox="0 0 24 24" width="12" height="12" aria-hidden="true"><path fill="currentColor" d="M7 10l5 5 5-5z"/></svg>
+            </button>
+            <ul class="lang-switcher__menu" id="langSwitcherMenu" role="menu" hidden></ul>
+          </div>
+          <a class="top__github" href="https://github.com/hooosberg/Packpour" target="_blank" rel="noreferrer noopener">GitHub ↗</a>
+        </nav>
+      </div>
+    </header>
+
+    <main>
+      <section class="page-hero">
+        <div class="container">
+          <span class="page-hero__eyebrow">Privacy</span>
+          <h1>Local-first by design, not just by marketing copy.</h1>
+          <p>
+            This policy matches the real extension behavior. Packpour is scoped to metadata
+            filling on App Store Connect and keeps the final review step manual.
+          </p>
+        </div>
+      </section>
+
+      <div class="container policy">
+        <section>
+          <h2>What the extension stores</h2>
+          <p>
+            Imported TXT or Markdown metadata packs and the selected interface language are stored
+            in Chrome local storage on your machine.
+          </p>
+        </section>
+
+        <section>
+          <h2>What it does not collect</h2>
+          <ul>
+            <li>No account system</li>
+            <li>No analytics</li>
+            <li>No remote sync backend</li>
+            <li>No advertising or tracking SDK</li>
+          </ul>
+        </section>
+
+        <section>
+          <h2>How page access works</h2>
+          <p>
+            The extension is limited to <code>https://appstoreconnect.apple.com/*</code>. It fills
+            the active tab only after a direct user action from the side panel.
+          </p>
+        </section>
+
+        <section>
+          <h2>Sensitive fields</h2>
+          <p>
+            Password, payment, token, and secret-looking fields are intentionally skipped. Packpour
+            is built for metadata operations, not credential handling.
+          </p>
+        </section>
+
+        <section>
+          <h2>Submission boundary</h2>
+          <p>
+            Packpour does not click Save, Publish, or Submit for Review. Final submission remains manual.
+          </p>
+        </section>
+      </div>
+    </main>
+
+    <footer class="foot">
+      <div class="container foot__inner">
+        <div class="foot__brand">
+          <span class="foot__logo" aria-hidden="true">
+            <svg width="20" height="20" viewBox="0 0 18 18" fill="none">
+              <rect x="2" y="4" width="9" height="2" rx="1" fill="white" opacity=".5"/>
+              <rect x="2" y="8" width="14" height="2" rx="1" fill="white" opacity=".5"/>
+              <rect x="2" y="12" width="11" height="2" rx="1" fill="white" opacity=".5"/>
+              <rect x="2" y="4" width="5" height="2" rx="1" fill="white"/>
+            </svg>
+          </span>
+          <div>
+            <div class="foot__name">Packpour</div>
+            <div class="foot__tag" data-i18n="footer.tag">Multilingual metadata filling for App Store Connect</div>
+          </div>
+        </div>
+
+        <div class="foot__cols">
+          <div class="foot__col">
+            <h4 data-i18n="footer.colProduct">Packpour</h4>
+            <a href="https://github.com/hooosberg/Packpour" target="_blank" rel="noreferrer noopener" data-i18n="footer.linkRepo">GitHub repo</a>
+            <a href="https://github.com/hooosberg/Packpour/releases/latest" target="_blank" rel="noreferrer noopener" data-i18n="footer.linkRelease">Download latest release</a>
+            <a href="https://github.com/hooosberg/Packpour/releases" target="_blank" rel="noreferrer noopener" data-i18n="footer.linkChangelog">All releases / changelog</a>
+            <a href="https://github.com/hooosberg/Packpour/issues" target="_blank" rel="noreferrer noopener" data-i18n="footer.linkIssue">Report an issue</a>
+            <a href="mailto:zikedece@proton.me" data-i18n="footer.linkContact">Contact: zikedece@proton.me</a>
+          </div>
+          <div class="foot__col">
+            <h4 data-i18n-html="footer.colBuilt">Built by <a href="https://github.com/hooosberg" target="_blank" rel="noreferrer noopener">hooosberg</a></h4>
+            <a href="https://github.com/hooosberg/BeRaw" target="_blank" rel="noreferrer noopener" data-i18n="footer.proj1">BeRaw — Behance raw-image grabber</a>
+            <a href="https://github.com/hooosberg/AgentLimb" target="_blank" rel="noreferrer noopener" data-i18n="footer.proj2">AgentLimb — teach AI to control your browser</a>
+            <a href="https://github.com/hooosberg/WitNote" target="_blank" rel="noreferrer noopener" data-i18n="footer.proj3">WitNote — local-first AI writing companion</a>
+            <a href="https://github.com/hooosberg/GlotShot" target="_blank" rel="noreferrer noopener" data-i18n="footer.proj4">GlotShot — App Store preview images</a>
+            <a href="https://github.com/hooosberg/TrekReel" target="_blank" rel="noreferrer noopener" data-i18n="footer.proj5">TrekReel — outdoor trails, cinematic reels</a>
+            <a href="https://github.com/hooosberg/DOMPrompter" target="_blank" rel="noreferrer noopener" data-i18n="footer.proj6">DOMPrompter — visualize DOM for AI code</a>
+            <a href="https://github.com/hooosberg/UIXskills" target="_blank" rel="noreferrer noopener" data-i18n="footer.proj7">UIXskills — AI → JSON → Whiteboard → UI</a>
+          </div>
+        </div>
+      </div>
+
+      <div class="container foot__legal">
+        <span>© <span id="year">2026</span> hooosberg · <span data-i18n-html="footer.legalCopy">Packpour is open source under the <a href="./terms.html">MIT License</a>. Free for personal and team use.</span></span>
+        <span class="foot__legal-links">
+          <a href="./terms.html" data-i18n="footer.legalTerms">Terms of Service</a>
+          <a href="./privacy.html" data-i18n="footer.legalPrivacy">Privacy Policy</a>
+          <a href="./support.html" data-i18n="footer.legalSupport">Support</a>
+        </span>
+      </div>
+      <div class="container foot__legal">
+        <span data-i18n="footer.legalTrademark">Not affiliated with Apple. App Store Connect and all Apple trademarks belong to Apple Inc.</span>
+      </div>
+    </footer>
+
+    <script defer src="./i18n.js"></script>
+  </body>
+</html>
