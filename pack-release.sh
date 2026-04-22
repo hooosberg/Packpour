@@ -30,10 +30,14 @@ OUT_PATH="${OUT_DIR}/${ZIP_NAME}"
 mkdir -p "$OUT_DIR"
 rm -f "$OUT_PATH"
 
-# Zip local/ contents (flat — manifest.json at zip root), excluding dev files
+# Zip local/ contents (flat — manifest.json at zip root), excluding dev files.
+# docs/ holds developer-only markdown (release checklist, store listing drafts)
+# and must never ship inside the extension bundle.
 ( cd local && zip -qry "../${OUT_PATH}" . \
     -x "dist/*" \
     -x "scripts/*" \
+    -x "docs/*" \
+    -x "docs" \
     -x ".DS_Store" \
     -x "**/.DS_Store" \
     -x "icons/README.md" \
