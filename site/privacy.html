@@ -46,7 +46,7 @@
     <main>
       <section class="page-hero">
         <div class="container">
-          <span class="page-hero__eyebrow">Privacy</span>
+          <span class="page-hero__eyebrow">Privacy · last updated 2026-04-22</span>
           <h1>Local-first by design, not just by marketing copy.</h1>
           <p>
             This policy matches the real extension behavior. Packpour is scoped to metadata
@@ -94,6 +94,51 @@
           <h2>Submission boundary</h2>
           <p>
             Packpour does not click Save, Publish, or Submit for Review. Final submission remains manual.
+          </p>
+        </section>
+
+        <section>
+          <h2>Third-party network requests</h2>
+          <p>
+            Packpour makes exactly one outbound network request, and only when you ask for it:
+            when you click <b>Settings → About → Check for updates</b>, the extension fetches the
+            latest release metadata from the public GitHub Releases API at
+            <code>https://api.github.com/repos/hooosberg/Packpour/releases/latest</code>.
+          </p>
+          <p>
+            The request sends no identifying information about you — it is a plain version-check call.
+            GitHub may log the request IP as part of its normal service operation; see GitHub's own
+            privacy policy for details. No other network calls leave your browser.
+          </p>
+        </section>
+
+        <section>
+          <h2>How to delete your data</h2>
+          <p>
+            Because all Packpour data is held in Chrome local storage on your own device, you can
+            remove it at any time:
+          </p>
+          <ul>
+            <li>Uninstall the extension from <code>chrome://extensions</code> — Chrome deletes its storage automatically.</li>
+            <li>Or, in <code>chrome://extensions</code>, open Packpour's details and click <b>Clear storage</b> to wipe imported packs and preferences while keeping the extension installed.</li>
+          </ul>
+        </section>
+
+        <section>
+          <h2>Contact</h2>
+          <p>
+            Questions, concerns, or privacy-related requests: email
+            <a href="mailto:zikedece@proton.me">zikedece@proton.me</a> or open an issue at
+            <a href="https://github.com/hooosberg/Packpour/issues" target="_blank" rel="noreferrer noopener">github.com/hooosberg/Packpour/issues</a>.
+          </p>
+        </section>
+
+        <section>
+          <h2>Changes to this policy</h2>
+          <p>
+            If Packpour's behavior ever changes in a way that affects this policy, the updated policy
+            will be published at this URL with a new "last updated" date. Continued use of the
+            extension after an update constitutes acceptance of the revised policy.
           </p>
         </section>
       </div>
