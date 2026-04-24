@@ -7,7 +7,7 @@
 Packpour ist eine local-first Chrome-Seitenleistenerweiterung. Sie liest ein mehrsprachiges TXT- oder Markdown-Pack und gießt jeden beschrifteten Wert in das passende Feld der aktuellen App-Store-Connect-Sprachseite. Speichern und Einreichen bleiben manuell.
 
 - 🌐 **Website:** https://hooosberg.github.io/Packpour/
-- 📦 **Download:** https://github.com/hooosberg/Packpour/releases/latest
+- 📦 **Download:** https://chromewebstore.google.com/detail/packpour/phpeiikoiifehamfkjmknhmfbichcdjj?authuser=0&hl=en
 - 🔒 **Datenschutz:** [site/privacy.html](./site/privacy.html)
 - 📝 **Nutzungsbedingungen:** [site/terms.html](./site/terms.html)
 - ✉️ **Kontakt:** zikedece@proton.me
@@ -22,12 +22,11 @@ Packpour ist eine local-first Chrome-Seitenleistenerweiterung. Sie liest ein meh
 
 ## Installation
 
-### Aus GitHub Releases (empfohlen)
+### Aus dem Chrome Web Store (empfohlen)
 
-1. Neueste `.zip` von [Releases](https://github.com/hooosberg/Packpour/releases/latest) herunterladen.
-2. An einem stabilen Ort entpacken (Ordner nach Installation nicht löschen).
-3. `chrome://extensions` öffnen und **Entwicklermodus** aktivieren.
-4. **Entpackte Erweiterung laden** klicken und den Ordner wählen.
+1. Öffnen Sie den [Chrome Web Store](https://chromewebstore.google.com/detail/packpour/phpeiikoiifehamfkjmknhmfbichcdjj?authuser=0&hl=en).
+2. Klicken Sie auf **Zu Chrome hinzufügen**.
+3. Chrome installiert die Erweiterung automatisch und erhält weitere Updates über den Store.
 
 ### Aus dem Quellcode
 

@@ -7,7 +7,7 @@
 Packpour はローカルファーストの Chrome サイドパネル拡張機能です。多言語の TXT または Markdown メタデータパックを読み込み、現在の App Store Connect ロケールページの対応する欄にラベル付きの値を注ぎ込みます。保存と申請は常に手動のままです。
 
 - 🌐 **ランディングページ：** https://hooosberg.github.io/Packpour/
-- 📦 **ダウンロード：** https://github.com/hooosberg/Packpour/releases/latest
+- 📦 **ダウンロード：** https://chromewebstore.google.com/detail/packpour/phpeiikoiifehamfkjmknhmfbichcdjj?authuser=0&hl=en
 - 🔒 **プライバシー：** [site/privacy.html](./site/privacy.html)
 - 📝 **利用規約：** [site/terms.html](./site/terms.html)
 - ✉️ **連絡先：** zikedece@proton.me
@@ -22,12 +22,11 @@ Packpour はローカルファーストの Chrome サイドパネル拡張機能
 
 ## インストール
 
-### GitHub Releases から（推奨）
+### Chrome Web Store から（推奨）
 
-1. [Releases](https://github.com/hooosberg/Packpour/releases/latest) から最新の `.zip` をダウンロード。
-2. 安定した場所に解凍（インストール後にフォルダを削除しない）。
-3. `chrome://extensions` を開き、**デベロッパーモード** をオンに。
-4. **パッケージ化されていない拡張機能を読み込む** をクリックし、解凍済みフォルダを選択。
+1. [Chrome Web Store](https://chromewebstore.google.com/detail/packpour/phpeiikoiifehamfkjmknhmfbichcdjj?authuser=0&hl=en) を開きます。
+2. **Chrome に追加** をクリックします。
+3. Chrome が自動でインストールし、以後の更新もストア経由で届きます。
 
 ### ソースから
 

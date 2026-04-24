@@ -10,8 +10,8 @@
 </p>
 
 <p align="center">
-  <a href="https://github.com/hooosberg/Packpour/releases/latest">
-    <img src="https://img.shields.io/badge/Download-Latest_Release-5b4cf5?style=for-the-badge&logo=github&logoColor=white" alt="Download latest release">
+  <a href="https://chromewebstore.google.com/detail/packpour/phpeiikoiifehamfkjmknhmfbichcdjj?authuser=0&hl=en">
+    <img src="https://img.shields.io/badge/Chrome_Web_Store-Add_to_Chrome-4285F4?style=for-the-badge&logo=googlechrome&logoColor=white" alt="Add Packpour to Chrome">
   </a>
   <a href="https://hooosberg.github.io/Packpour/">
     <img src="https://img.shields.io/badge/Website-hooosberg.github.io/Packpour-F5A623?style=for-the-badge" alt="Website">
@@ -106,7 +106,7 @@ No remote server in the loop. No background sync. Packpour is one click between 
 
 ## Quick Start
 
-1. **Install** — Download the latest `.zip` from [Releases](https://github.com/hooosberg/Packpour/releases/latest), unzip to a stable folder, open `chrome://extensions`, enable **Developer mode**, click **Load unpacked**, pick the unzipped folder. *(Chrome Web Store listing in review.)*
+1. **Install** — Add Packpour from the [Chrome Web Store](https://chromewebstore.google.com/detail/packpour/phpeiikoiifehamfkjmknhmfbichcdjj?authuser=0&hl=en).
 2. **Open App Store Connect** — Navigate to your app's metadata page for the locale you want to fill.
 3. **Open Packpour** — Click the Packpour icon to open the side panel, import your TXT / Markdown pack.
 4. **Pour** — Select the locale, click **Pour**. Review the filled fields, click **Save** yourself.
@@ -190,7 +190,7 @@ Writes `github/releases/Packpour-v{version}.zip` using the version in `local/man
 ## Resources
 
 - **Website**: [hooosberg.github.io/Packpour](https://hooosberg.github.io/Packpour/)
-- **Download**: [Latest release](https://github.com/hooosberg/Packpour/releases/latest)
+- **Download**: [Chrome Web Store](https://chromewebstore.google.com/detail/packpour/phpeiikoiifehamfkjmknhmfbichcdjj?authuser=0&hl=en)
 - **Privacy Policy**: [site/privacy.html](./site/privacy.html)
 - **Terms of Service**: [site/terms.html](./site/terms.html)
 

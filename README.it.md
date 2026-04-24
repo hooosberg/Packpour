@@ -7,7 +7,7 @@
 Packpour è un'estensione Chrome local-first con pannello laterale. Legge un pack multilingue (TXT o Markdown) e versa ogni valore etichettato nel campo corrispondente della pagina di locale attiva di App Store Connect. Salva e Invia restano manuali.
 
 - 🌐 **Sito:** https://hooosberg.github.io/Packpour/
-- 📦 **Download:** https://github.com/hooosberg/Packpour/releases/latest
+- 📦 **Download:** https://chromewebstore.google.com/detail/packpour/phpeiikoiifehamfkjmknhmfbichcdjj?authuser=0&hl=en
 - 🔒 **Privacy:** [site/privacy.html](./site/privacy.html)
 - 📝 **Termini:** [site/terms.html](./site/terms.html)
 - ✉️ **Contatto:** zikedece@proton.me
@@ -22,12 +22,11 @@ Packpour è un'estensione Chrome local-first con pannello laterale. Legge un pac
 
 ## Installazione
 
-### Da GitHub Releases (consigliato)
+### Dal Chrome Web Store (consigliato)
 
-1. Scarica l'ultima `.zip` da [Releases](https://github.com/hooosberg/Packpour/releases/latest).
-2. Estrai in un percorso stabile (non cancellare la cartella dopo).
-3. Apri `chrome://extensions` e attiva la **modalità sviluppatore**.
-4. Clicca **Carica estensione non pacchettizzata** e seleziona la cartella.
+1. Apri il [Chrome Web Store](https://chromewebstore.google.com/detail/packpour/phpeiikoiifehamfkjmknhmfbichcdjj?authuser=0&hl=en).
+2. Fai clic su **Aggiungi a Chrome**.
+3. Chrome installa l'estensione automaticamente e riceverà gli aggiornamenti futuri dallo Store.
 
 ### Dal codice sorgente
 

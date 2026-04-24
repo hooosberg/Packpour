@@ -7,7 +7,7 @@
 Packpour 是一个本地优先的 Chrome 侧边栏插件，读入多语言 TXT / Markdown 元数据包，然后把每个标签对应的值倒进当前 App Store Connect 本地化页面的字段里。保存和提交始终由你决定。
 
 - 🌐 **落地页：** https://hooosberg.github.io/Packpour/
-- 📦 **下载：** https://github.com/hooosberg/Packpour/releases/latest
+- 📦 **下载：** https://chromewebstore.google.com/detail/packpour/phpeiikoiifehamfkjmknhmfbichcdjj?authuser=0&hl=en
 - 🔒 **隐私：** [site/privacy.html](./site/privacy.html)
 - 📝 **条款：** [site/terms.html](./site/terms.html)
 - ✉️ **联系：** zikedece@proton.me
@@ -22,12 +22,11 @@ Packpour 是一个本地优先的 Chrome 侧边栏插件，读入多语言 TXT /
 
 ## 安装
 
-### 从 GitHub Releases（推荐）
+### 从 Chrome Web Store（推荐）
 
-1. 到 [Releases](https://github.com/hooosberg/Packpour/releases/latest) 下载最新 `.zip`。
-2. 解压到一个稳定位置（安装后不要删除文件夹）。
-3. 打开 `chrome://extensions`，开启 **开发者模式**。
-4. 点 **加载已解压的扩展程序**，选解压后的文件夹。
+1. 打开 [Chrome Web Store](https://chromewebstore.google.com/detail/packpour/phpeiikoiifehamfkjmknhmfbichcdjj?authuser=0&hl=en)。
+2. 点击 **添加至 Chrome**。
+3. Chrome 会自动安装，并通过商店接收后续更新。
 
 ### 从源码
 

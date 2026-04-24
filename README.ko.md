@@ -7,7 +7,7 @@
 Packpour 는 로컬 우선 Chrome 사이드 패널 확장입니다. 다국어 TXT 또는 Markdown 메타데이터 팩을 읽어, 현재 App Store Connect 로케일 페이지의 해당 필드에 라벨이 붙은 값들을 부어 넣습니다. 저장과 제출은 항상 수동입니다.
 
 - 🌐 **랜딩 페이지:** https://hooosberg.github.io/Packpour/
-- 📦 **다운로드:** https://github.com/hooosberg/Packpour/releases/latest
+- 📦 **다운로드:** https://chromewebstore.google.com/detail/packpour/phpeiikoiifehamfkjmknhmfbichcdjj?authuser=0&hl=en
 - 🔒 **개인정보:** [site/privacy.html](./site/privacy.html)
 - 📝 **이용 약관:** [site/terms.html](./site/terms.html)
 - ✉️ **연락처:** zikedece@proton.me
@@ -22,12 +22,11 @@ Packpour 는 로컬 우선 Chrome 사이드 패널 확장입니다. 다국어 TX
 
 ## 설치
 
-### GitHub Releases 에서 (권장)
+### Chrome 웹 스토어에서 (권장)
 
-1. [Releases](https://github.com/hooosberg/Packpour/releases/latest) 에서 최신 `.zip` 다운로드.
-2. 안정적인 위치에 압축 해제 (설치 후 폴더 삭제 금지).
-3. `chrome://extensions` 열고 **개발자 모드** 활성화.
-4. **압축해제된 확장 프로그램 로드** 클릭 후 폴더 선택.
+1. [Chrome Web Store](https://chromewebstore.google.com/detail/packpour/phpeiikoiifehamfkjmknhmfbichcdjj?authuser=0&hl=en)를 엽니다.
+2. **Chrome에 추가**를 클릭합니다.
+3. Chrome 이 자동으로 설치하고 이후 업데이트도 스토어를 통해 받습니다.
 
 ### 소스에서
 
