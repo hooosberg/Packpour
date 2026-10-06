@@ -6,7 +6,7 @@
 
 Packpour 는 로컬 우선 Chrome 사이드 패널 확장입니다. 다국어 TXT 또는 Markdown 메타데이터 팩을 읽어, 현재 App Store Connect 로케일 페이지의 해당 필드에 라벨이 붙은 값들을 부어 넣습니다. 저장과 제출은 항상 수동입니다.
 
-- 🌐 **랜딩 페이지:** https://hooosberg.github.io/Packpour/
+- 🌐 **랜딩 페이지:** https://hooosberg.com/apps/packpour/
 - 📦 **다운로드:** https://chromewebstore.google.com/detail/packpour/phpeiikoiifehamfkjmknhmfbichcdjj?authuser=0&hl=en
 - 🔒 **개인정보:** [site/privacy.html](./site/privacy.html)
 - 📝 **이용 약관:** [site/terms.html](./site/terms.html)

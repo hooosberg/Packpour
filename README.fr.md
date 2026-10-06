@@ -6,7 +6,7 @@
 
 Packpour est une extension Chrome local-first en panneau latéral. Elle lit un pack multilingue (TXT ou Markdown) et déverse chaque valeur étiquetée dans le champ correspondant de la page de locale active d'App Store Connect. Enregistrer et Soumettre restent manuels.
 
-- 🌐 **Site :** https://hooosberg.github.io/Packpour/
+- 🌐 **Site :** https://hooosberg.com/apps/packpour/
 - 📦 **Téléchargement :** https://chromewebstore.google.com/detail/packpour/phpeiikoiifehamfkjmknhmfbichcdjj?authuser=0&hl=en
 - 🔒 **Confidentialité :** [site/privacy.html](./site/privacy.html)
 - 📝 **Conditions :** [site/terms.html](./site/terms.html)

@@ -7,7 +7,7 @@ const MAX_IMPORT_TOTAL_BYTES = 2 * 1024 * 1024;
 const MAX_DIRECTORY_ENTRIES_SCANNED = 500;
 const APP_STORE_CONNECT_URL = "https://appstoreconnect.apple.com/apps";
 const PROJECT_REPO_URL = "https://github.com/hooosberg/Packpour";
-const PROJECT_SITE_URL = "https://hooosberg.github.io/Packpour/";
+const PROJECT_SITE_URL = "https://hooosberg.com/apps/packpour/";
 const PROJECT_SUPPORT_URL = `${PROJECT_SITE_URL}support.html`;
 const PROJECT_PRIVACY_URL = `${PROJECT_SITE_URL}privacy.html`;
 const PROJECT_TERMS_URL = `${PROJECT_SITE_URL}terms.html`;
@@ -969,7 +969,7 @@ function renderAiPrompt() {
 }
 
 function renderExternalLinks() {
-  setExternalLink(homepageLink, PROJECT_SITE_URL, "hooosberg.github.io/Packpour");
+  setExternalLink(homepageLink, PROJECT_SITE_URL, "hooosberg.com/apps/packpour/");
   setExternalLink(githubLink, PROJECT_REPO_URL, "hooosberg/Packpour");
   setExternalLink(supportLink, PROJECT_SUPPORT_URL, "support.html");
   setExternalLink(privacyLink, PROJECT_PRIVACY_URL, "privacy.html");

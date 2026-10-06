@@ -13,8 +13,8 @@
   <a href="https://chromewebstore.google.com/detail/packpour/phpeiikoiifehamfkjmknhmfbichcdjj?authuser=0&hl=en">
     <img src="https://img.shields.io/badge/Chrome_Web_Store-Add_to_Chrome-4285F4?style=for-the-badge&logo=googlechrome&logoColor=white" alt="Add Packpour to Chrome">
   </a>
-  <a href="https://hooosberg.github.io/Packpour/">
-    <img src="https://img.shields.io/badge/Website-hooosberg.github.io/Packpour-F5A623?style=for-the-badge" alt="Website">
+  <a href="https://hooosberg.com/apps/packpour/">
+    <img src="https://img.shields.io/badge/Website-hooosberg.com/apps/packpour/-F5A623?style=for-the-badge" alt="Website">
   </a>
   <a href="https://github.com/hooosberg/Packpour">
     <img src="https://img.shields.io/github/stars/hooosberg/Packpour?style=for-the-badge&logo=github&label=Star&color=24292f" alt="Star on GitHub">
@@ -189,7 +189,7 @@ Writes `github/releases/Packpour-v{version}.zip` using the version in `local/man
 
 ## Resources
 
-- **Website**: [hooosberg.github.io/Packpour](https://hooosberg.github.io/Packpour/)
+- **Website**: [hooosberg.com/apps/packpour/](https://hooosberg.com/apps/packpour/)
 - **Download**: [Chrome Web Store](https://chromewebstore.google.com/detail/packpour/phpeiikoiifehamfkjmknhmfbichcdjj?authuser=0&hl=en)
 - **Privacy Policy**: [site/privacy.html](./site/privacy.html)
 - **Terms of Service**: [site/terms.html](./site/terms.html)
@@ -204,11 +204,11 @@ Writes `github/releases/Packpour-v{version}.zip` using the version in `local/man
 Built by [hooosberg](https://github.com/hooosberg):
 
 - [AgentLimb](https://agentlimb.com) — teach AI to control your browser
-- [BeRaw](https://hooosberg.github.io/BeRaw/) — Behance raw-image grabber
-- [WitNote](https://hooosberg.github.io/WitNote/) — local-first AI writing companion
-- [GlotShot](https://hooosberg.github.io/GlotShot/) — perfect App Store preview images
-- [TrekReel](https://hooosberg.github.io/TrekReel/) — outdoor trails, cinematic reels
-- [DOMPrompter](https://hooosberg.github.io/DOMPrompter/) — visualize DOM for AI code
+- [BeRaw](https://hooosberg.com/apps/beraw/) — Behance raw-image grabber
+- [WitNote](https://hooosberg.com/apps/witnote/) — local-first AI writing companion
+- [GlotShot](https://hooosberg.com/apps/glotshot/) — perfect App Store preview images
+- [TrekReel](https://hooosberg.com/apps/trekreel/) — outdoor trails, cinematic reels
+- [DOMPrompter](https://hooosberg.com/apps/domprompter/) — visualize DOM for AI code
 - [UIXskills](https://uixskills.com) — AI → JSON → Whiteboard → UI
 
 ## License

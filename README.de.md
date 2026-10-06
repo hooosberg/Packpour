@@ -6,7 +6,7 @@
 
 Packpour ist eine local-first Chrome-Seitenleistenerweiterung. Sie liest ein mehrsprachiges TXT- oder Markdown-Pack und gießt jeden beschrifteten Wert in das passende Feld der aktuellen App-Store-Connect-Sprachseite. Speichern und Einreichen bleiben manuell.
 
-- 🌐 **Website:** https://hooosberg.github.io/Packpour/
+- 🌐 **Website:** https://hooosberg.com/apps/packpour/
 - 📦 **Download:** https://chromewebstore.google.com/detail/packpour/phpeiikoiifehamfkjmknhmfbichcdjj?authuser=0&hl=en
 - 🔒 **Datenschutz:** [site/privacy.html](./site/privacy.html)
 - 📝 **Nutzungsbedingungen:** [site/terms.html](./site/terms.html)

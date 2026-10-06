@@ -6,7 +6,7 @@
 
 Packpour è un'estensione Chrome local-first con pannello laterale. Legge un pack multilingue (TXT o Markdown) e versa ogni valore etichettato nel campo corrispondente della pagina di locale attiva di App Store Connect. Salva e Invia restano manuali.
 
-- 🌐 **Sito:** https://hooosberg.github.io/Packpour/
+- 🌐 **Sito:** https://hooosberg.com/apps/packpour/
 - 📦 **Download:** https://chromewebstore.google.com/detail/packpour/phpeiikoiifehamfkjmknhmfbichcdjj?authuser=0&hl=en
 - 🔒 **Privacy:** [site/privacy.html](./site/privacy.html)
 - 📝 **Termini:** [site/terms.html](./site/terms.html)

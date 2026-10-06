@@ -6,7 +6,7 @@
 
 Packpour はローカルファーストの Chrome サイドパネル拡張機能です。多言語の TXT または Markdown メタデータパックを読み込み、現在の App Store Connect ロケールページの対応する欄にラベル付きの値を注ぎ込みます。保存と申請は常に手動のままです。
 
-- 🌐 **ランディングページ：** https://hooosberg.github.io/Packpour/
+- 🌐 **ランディングページ：** https://hooosberg.com/apps/packpour/
 - 📦 **ダウンロード：** https://chromewebstore.google.com/detail/packpour/phpeiikoiifehamfkjmknhmfbichcdjj?authuser=0&hl=en
 - 🔒 **プライバシー：** [site/privacy.html](./site/privacy.html)
 - 📝 **利用規約：** [site/terms.html](./site/terms.html)
